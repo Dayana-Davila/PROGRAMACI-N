@@ -1,0 +1,4 @@
+Console.Write("Radio del círculo: ");
+double r = double.Parse(Console.ReadLine());
+double areaC = Math.PI * Math.Pow(r, 2);
+Console.WriteLine($"Área del círculo: {areaC:F3}");

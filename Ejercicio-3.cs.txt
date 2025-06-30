@@ -1,0 +1,8 @@
+Console.Write("Ingresa el primer número: ");
+float x1 = float.Parse(Console.ReadLine());
+Console.Write("Ingresa el segundo número: ");
+float x2 = float.Parse(Console.ReadLine());
+Console.Write("Ingresa el tercer número: ");
+float x3 = float.Parse(Console.ReadLine());
+float promedio = (x1 + x2 + x3) / 3f;
+Console.WriteLine($"El promedio es: {promedio:F2}");

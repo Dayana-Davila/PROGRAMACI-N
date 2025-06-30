@@ -1,0 +1,4 @@
+Console.Write("Introduce temperatura en Celsius: ");
+decimal c = decimal.Parse(Console.ReadLine());
+decimal f = (c * 1.8m) + 32;
+Console.WriteLine($"Equivale a {f} °F");

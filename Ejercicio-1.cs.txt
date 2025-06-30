@@ -1,0 +1,3 @@
+Console.Write("Escribe un número cualquiera: ");
+var entrada = Console.ReadLine();
+Console.WriteLine("Ingresaste: " + entrada);

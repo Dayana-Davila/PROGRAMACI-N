@@ -1,0 +1,4 @@
+Console.Write("Cantidad en metros: ");
+double m = double.Parse(Console.ReadLine());
+double cm = m * 100;
+Console.WriteLine($"{m} metros son {cm} centímetros");

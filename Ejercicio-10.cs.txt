@@ -1,0 +1,4 @@
+Console.Write("Ingresa un número para verificar su signo: ");
+int n = int.Parse(Console.ReadLine());
+string signo = (n > 0) ? "positivo" : (n < 0) ? "negativo" : "cero";
+Console.WriteLine($"El número es {signo}.");

@@ -1,0 +1,6 @@
+Console.Write("Base del triángulo: ");
+float baseT = float.Parse(Console.ReadLine());
+Console.Write("Altura del triángulo: ");
+float alturaT = float.Parse(Console.ReadLine());
+float area = 0.5f * baseT * alturaT;
+Console.WriteLine("Área = " + area);

@@ -1,0 +1,6 @@
+Console.Write("Ingresa la base: ");
+int baseR = int.Parse(Console.ReadLine());
+Console.Write("Ingresa la altura: ");
+int alturaR = int.Parse(Console.ReadLine());
+int perimetro = 2 * (baseR + alturaR);
+Console.WriteLine("Perímetro: " + perimetro);
